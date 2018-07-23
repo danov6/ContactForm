@@ -1,0 +1,39 @@
+<html>
+	<head>
+	<style>
+	body{
+		font-family: "Trebuchet MS", sans-serif;
+	}
+	input{
+		background-color: blue;
+		color: white;
+		border-radius: 10%
+		font-weight: bold;
+		font-size: 20px;
+		display: block;
+		border: none;
+		margin: 10px 0px 10px 0px;
+		padding: 2px;
+		font-family: "Trebuchet MS", sans-serif;
+	}
+	input[type="submit"]{
+		background-color: #fff;
+		color: #000;
+		border: 1px solid;
+		cursor: pointer;
+	}
+	</style>
+	</head>
+	<body>
+		<center>
+		<h2>Form Test</h2>
+			<form name="loginForm" method="post" action="loginServlet">
+				<label>Email</label>
+				<input type="email" name="email" required autofill autofocus>
+				<label>Password</label>
+				<input type="password" name="password" required>
+				<input type="submit" value="Submit">
+			</form>
+		</center>
+	</body>
+</html>
